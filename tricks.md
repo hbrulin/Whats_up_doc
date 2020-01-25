@@ -19,11 +19,11 @@ typedef union				u_color
 -> remplir l'un des trois champ va remplir les autres, car même espace mémoire.
 -> unsigned : pas de crash si mauvaise valeur r, g, b.
 
-<strong>#bzero</strong>
-systematiquement sur structure avant de l'utiliser
+<strong>#bzero</strong> 
+- systematiquement sur structure avant de l'utiliser
 
 <strong>#buffer sizes</strong>
-4096 = common memory page -> common buffer size.
+- 4096 = common memory page -> common buffer size.
 
 <strong>#Flagbit</strong>
 ->to be continued
