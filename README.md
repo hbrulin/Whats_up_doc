@@ -1,2 +1,2 @@
-# What-s_up_doc
+# Whats_up_doc
 General documentation
