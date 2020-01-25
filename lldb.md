@@ -31,7 +31,7 @@ down
 
 <strong>Dumping register values : </strong> \
 register read \
-<strong>#One register : <strong> \
+<strong>#One register : </strong> \
 register read rdi
 
 <strong>#Show frame variables : </strong> \
@@ -45,6 +45,6 @@ dtruss
 <strong>#Disassemble</strong> \
 compiler un .c avec un -g : Faire ensuite lldb nom du programme, set a breakpoint et r -> affichage du code en assembleur
 
-<strong>#Ressources :</strong> \
-- http://nickdesaulniers.github.io/blog/2016/01/20/debugging-x86-64-assembly-with-lldb-and-dtrace/  \
+<strong>#Ressources :</strong> 
+- http://nickdesaulniers.github.io/blog/2016/01/20/debugging-x86-64-assembly-with-lldb-and-dtrace/ 
 - lldb commands : https://lldb.llvm.org/use/map.html 
