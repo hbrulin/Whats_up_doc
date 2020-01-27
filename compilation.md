@@ -22,6 +22,14 @@ ar rcs
 - 'nasm -f macho64 test.s -o test.o'
 - '-g' valable
 
+#Compil avec un .a
+- gcc $(FLAGS) -L. -lasm main.c
+OU \
+- gcc $(FLAGS) main.c libasm.a
+OU \
+- gcc -c main.c
+  gcc $(FLAGS) main.o libasm.a
+
 
 A ajouter : 
 - makefile tricks, compile with librairies, include headers
