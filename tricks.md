@@ -25,6 +25,10 @@ typedef union				u_color
 <strong>#buffer sizes</strong>
 - 4096 = common memory page -> common buffer size.
 
+<strong>#No space left on device</strong>
+ rm -r ~/Library/Caches/*
+
+
 <strong>#Flagbit</strong>
 ->to be continued
 
