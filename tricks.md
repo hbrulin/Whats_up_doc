@@ -28,7 +28,7 @@ typedef union				u_color
 <strong>#No space left on device</strong> \
  rm -r ~/Library/Caches/*
 
-<strong>#Debugger</strong> \
+<strong>#Debugger</strong> 
 - Ne pas protéger la libc contre le segfault : permet de voir quand ça crash.
 - Sinon : faire deux versions de chaque ft, une par défaut, secure, et une non secure avec la commande preprocesseur #ifndef DEBUG, suivi de #endif. Possible d'ajouter des commentaires donnant des infos sur le bug. Compiler avec -D DEBUG. 
 
