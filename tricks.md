@@ -26,7 +26,8 @@ typedef union				u_color
 - 4096 = common memory page -> common buffer size.
 
 <strong>#No space left on device</strong> \
- rm -r ~/Library/Caches/*
+ rm -r ~/Library/Caches/* \
+ https://github.com/alexandregv/42toolbox/blob/master/free_space.sh
 
 <strong>#Debugger</strong> 
 - Ne pas protéger la libc contre le segfault : permet de voir quand ça crash.
