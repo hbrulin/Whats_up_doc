@@ -10,3 +10,7 @@ A faire : tester la difference git checkout et git checkout master
 <strong>#force a push</strong> \
 git push --force
 
+<strong>#Branches</strong> \
+git checkout -b BRANCH_NAME \
+add, push... \
+git push --set-upstream origin BRANCH_NAME
