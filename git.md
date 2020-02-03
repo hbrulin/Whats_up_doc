@@ -7,6 +7,6 @@
 - git stash pop : restaure version initiale
 A faire : tester la difference git checkout et git checkout master
 
-<strong>#force a push</strong>
+<strong>#force a push</strong> \
 git push --force
 
