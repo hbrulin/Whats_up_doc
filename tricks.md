@@ -36,6 +36,17 @@ typedef union				u_color
 <strong>#Memmove</strong> 
 Permet de modifier une string sans devoir en malloc une autre. Si je copie les derniers char d'une string, y compris le '\0', et que je les deplace au debut de la string, alors j'ai une nouvelle string plus courte. Ce qui apres le nouvel emplacement du \0 n'est pas à free.
 
+<strong>Bool</strong> 
+```c
+typedef enum		e_bool
+{
+	false,
+	true
+}			t_bool;
+```
+---> Voir lst_list_sort
+
+
 <strong>#Flagbit</strong>
 ->to be continued
 
