@@ -47,6 +47,10 @@ typedef enum		e_bool
 ---> Voir lst_list_sort
 
 
+<strong>Afficher leaks en sortie de programme</strong> 
+system("leaks minishell");
+
+
 <strong>#Flagbit</strong>
 ->to be continued
 
