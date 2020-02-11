@@ -48,8 +48,9 @@ typedef enum		e_bool
 
 
 <strong>Afficher leaks en sortie de programme</strong> 
+```c
 system("leaks minishell");
-
+```
 
 <strong>#Flagbit</strong>
 ->to be continued
