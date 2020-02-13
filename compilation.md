@@ -30,6 +30,8 @@ OU \
 - gcc -c main.c
   gcc $(FLAGS) main.o libasm.a
 
+#Makefile
+Pour mettre ses sources dans dossiers et sous-dossiers : voir Makefile minishell.
 
 A ajouter : 
 - makefile tricks, compile with librairies, include headers
