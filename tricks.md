@@ -52,6 +52,10 @@ typedef enum		e_bool
 system("leaks minishell");
 ```
 
+<strong>#Macros with arguments</strong>
+They work like functions : https://www.9wy.net/onlinebook/CPrimerPlus5/ch16lev1sec3.html
+
+
 <strong>#Flagbit</strong>
 ->to be continued
 
