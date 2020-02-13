@@ -55,6 +55,8 @@ system("leaks minishell");
 <strong>#Macros with arguments</strong>
 They work like functions : https://www.9wy.net/onlinebook/CPrimerPlus5/ch16lev1sec3.html
 
+<strong>#Utiliser vscode debugger with stdin</strong>
+Dans vscode config, mettre external console à True. Puis press play et ecrire dans la console qui s'ouvre.
 
 <strong>#Flagbit</strong>
 ->to be continued
