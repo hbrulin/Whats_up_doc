@@ -22,3 +22,6 @@ git pull - mettre a jour son master pour recup ce qui a ete merge par les autres
 git merge BRANCHE, puis git push - push sa branche \
 git checkout BRANCH - retour branche \
 git merge master - recuperer son push ainsi que les autres push sur le master, dans la branche
+
+<strong>#Voir tous les commits sur un fichier</strong> 
+git log -p monFichier
