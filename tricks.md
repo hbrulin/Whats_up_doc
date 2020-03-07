@@ -58,6 +58,12 @@ They work like functions : https://www.9wy.net/onlinebook/CPrimerPlus5/ch16lev1s
 <strong>#Utiliser vscode debugger with stdin</strong>
 Dans vscode config, mettre external console à True. Puis press play et ecrire dans la console qui s'ouvre.
 
+<strong>#Find a file in subdirectories</strong>
+ find / | grep file
+ 
+<strong>#Shell colors</strong>
+https://www.admin-linux.fr/bash-de-la-couleur-dans-le-shell/
+
 <strong>#Flagbit</strong>
 ->to be continued
 
