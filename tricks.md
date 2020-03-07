@@ -65,8 +65,31 @@ Dans vscode config, mettre external console à True. Puis press play et ecrire d
 <strong>#Shell colors</strong>
 https://www.admin-linux.fr/bash-de-la-couleur-dans-le-shell/
 
+<strong>#Tableau de ptr sur ft</strong>
+```c
+typedef int	(*t_functions)(char **args); //char **args, parametre passe a chaque ft du tableau
+
+t_functions	g_functions[] = {
+	&ft_echo, &ft_cd, &ft_pwd, &ft_export, &ft_unset, &ft_env, &ft_exit
+};
+//Appel :
+g_functions[i](args);
+```
+
+<strong>#Fonction index et search in it</strong>
+```c
+int		list_index(const char *name)
+{
+	static const char	*list_names[] = {
+		"echo", "cd", "pwd", "export", "unset", "env", "exit"
+	};
+
+	return (ft_tabindex(list_names, name));
+}
+```
+
 <strong>#Flagbit</strong>
-->to be continued
+->to be continued : reprendre utilisation printf
 
 <strong>#Bitfield</strong>
 ->to be continued
