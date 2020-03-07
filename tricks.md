@@ -46,6 +46,7 @@ typedef enum		e_bool
 }			t_bool;
 ```
 ---> Voir lst_list_sort
+---> utiliser bitfield plutôt?
 
 
 <strong>Afficher leaks en sortie de programme</strong> 
