@@ -25,3 +25,8 @@ git merge master - recuperer son push ainsi que les autres push sur le master, d
 
 <strong>#Voir tous les commits sur un fichier</strong> 
 git log -p monFichier
+
+
+<strong>#Reevenir v précédente</strong> 
+git reset --hard <commit hash>
+git reset --hard origin/master (go back to what is currently on github master)
